@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 const App = () => {
   const [number, setNumber] = useState(0);
   const [aNumber, setAnumber] = useState(0);
+
   const sayHello = () => console.log("Hello");
   useEffect(sayHello, []);
   return (
