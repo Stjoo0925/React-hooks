@@ -1,6 +1,4 @@
-import { useState, useEffect } from "react";
-
-const App = () => {
+export const App = () => {
   const [number, setNumber] = useState(0);
   const [aNumber, setAnumber] = useState(0);
 
